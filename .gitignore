@@ -107,3 +107,6 @@ InitTestScene*.unity*
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
 /helloworld_BackUpThisFolder_ButDontShipItWithYourGame
 /VR-AR_BurstDebugInformation_DoNotShip
+.erp
+/Assets/ERP
+Assets/ERP.meta
