@@ -279,7 +279,7 @@ GameObject:
   - component: {fileID: 151759492}
   - component: {fileID: 151759491}
   - component: {fileID: 151759490}
-  - component: {fileID: 151759493}
+  - component: {fileID: 151759494}
   m_Layer: 5
   m_Name: Mute/Unmute
   m_TagString: Untagged
@@ -353,7 +353,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 151759493}
+      - m_Target: {fileID: 151759494}
         m_TargetAssemblyTypeName: AudioToggleController, Assembly-CSharp
         m_MethodName: ToggleAudio
         m_Mode: 1
@@ -387,7 +387,7 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: a74dacc9bfcf47749a8630eac3456429, type: 3}
   m_Type: 1
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -403,25 +403,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 151759488}
   m_CullTransparentMesh: 1
---- !u!114 &151759493
+--- !u!114 &151759494
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 151759488}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cb41e7aaad87d9745828905f35935b1a, type: 3}
+  m_Script: {fileID: 11500000, guid: 99f57f6000dabfa4292ce89d7bdceba9, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::AudioToggleController
-  buttonImage: {fileID: 493796948}
+  m_EditorClassIdentifier: Assembly-CSharp::AudioToggle
+  iconImage: {fileID: 493796948}
   unmuteIcon: {fileID: 21300000, guid: 44f0b58ea8fab6346ba2b049cc2e4247, type: 3}
   muteIcon: {fileID: 21300000, guid: 402eede6c3db7f744a212515a59c6950, type: 3}
-  useCustomSize: 1
+  useCustomIconSize: 1
   iconSize: {x: 40, y: 16}
   preserveAspect: 1
-  vuforiaReplayer: {fileID: 0}
 --- !u!1 &206416784
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,80 +1,68 @@
 using UnityEngine;
-using UnityEngine.UI;
-using UnityEngine.Video;
+using Vuforia;
 
-public class AudioToggleController : MonoBehaviour
+public class AudioController1 : MonoBehaviour
 {
-    [Header("UI References")]
-    [SerializeField] private Image buttonImage;
-    [SerializeField] private Sprite unmuteIcon;
-    [SerializeField] private Sprite muteIcon;
-
-    [Header("Manual Sizing")]
-    [Tooltip("Enable to manually force custom width and height on the icon")]
-    [SerializeField] private bool useCustomSize = true;
-
-    [Tooltip("Exact width (X) and height (Y) in pixels")]
-    [SerializeField] private Vector2 iconSize = new Vector2(40f, 40f);
-
-    [Tooltip("Keep aspect ratio intact within the custom size boundaries")]
-    [SerializeField] private bool preserveAspect = true;
-
-    [Header("AR References")]
-    [SerializeField] private VuforiaVideoReplayer vuforiaReplayer;
-
-    private bool isMuted = false;
-
-    private void Start()
+    private AudioSource currentTrackedAudio;
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    private void OnEnable()
     {
-        InitializeComponents();
-        UpdateIcon();
-    }
-
-    // Runs in the Unity Editor when you change values in the Inspector
-    private void OnValidate()
-    {
-        InitializeComponents();
-        UpdateIcon();
-    }
-
-    private void InitializeComponents()
-    {
-        if (buttonImage == null)
+        ObserverBehaviour[] observers = FindObjectsByType<ObserverBehaviour>(FindObjectsSortMode.None);
+        foreach (ObserverBehaviour observer in observers)
         {
-            buttonImage = GetComponent<Image>();
+            observer.OnTargetStatusChanged += HandleTargetStatusChanged;
         }
     }
 
-    public void ToggleAudio()
+    private void OnDisable()
     {
-        isMuted = !isMuted;
-        ApplyMute();
-        UpdateIcon();
-    }
-
-    private void ApplyMute()
-    {
-        VideoPlayer[] players = FindObjectsByType<VideoPlayer>(FindObjectsSortMode.None);
-        AudioListener.volume = isMuted ? 0f : 1f;
-        Debug.Log($"[AudioToggle] Mute state: {isMuted}");
-    }
-
-    private void UpdateIcon()
-    {
-        if (buttonImage == null) return;
-
-        // Swap Sprite
-        buttonImage.sprite = isMuted ? muteIcon : unmuteIcon;
-        buttonImage.preserveAspect = preserveAspect;
-
-        // Apply manual pixel size to the RectTransform
-        if (useCustomSize)
+        ObserverBehaviour[] observers = FindObjectsByType<ObserverBehaviour>(FindObjectsSortMode.None);
+        foreach (ObserverBehaviour observer in observers)
         {
-            RectTransform rect = buttonImage.rectTransform;
-            if (rect != null)
+            observer.OnTargetStatusChanged -= HandleTargetStatusChanged;
+        }
+    }
+
+    private void HandleTargetStatusChanged(ObserverBehaviour observer, TargetStatus status)
+    {
+        bool isTracked = status.Status == Status.TRACKED || status.Status == Status.EXTENDED_TRACKED;
+        AudioSource targetAudio = observer.GetComponentInChildren<AudioSource>(true);
+
+        if (isTracked)
+        {
+            currentTrackedAudio = targetAudio;
+            Debug.Log($"[AudioController] Active Target: {observer.TargetName} | Clip: {targetAudio.clip?.name}");
+        }
+        else
+        {
+            if (currentTrackedAudio == targetAudio)
             {
-                rect.sizeDelta = iconSize;
+                if (currentTrackedAudio.isPlaying)
+                {
+                    currentTrackedAudio.Stop();
+                }
+                currentTrackedAudio = null;
             }
         }
     }
+    public void TogglePlayActiveAudio()
+    {
+        if (currentTrackedAudio == null)
+        {
+            Debug.LogWarning("[ARAudioPlayer] No AR target is currently tracked on camera.");
+            return;
+        }
+
+        if (currentTrackedAudio.isPlaying)
+        {
+            currentTrackedAudio.Stop();
+            Debug.Log($"[ARAudioPlayer] Paused: {currentTrackedAudio.clip?.name}");
+        }
+        else
+        {
+            currentTrackedAudio.Play();
+            Debug.Log($"[ARAudioPlayer] Playing: {currentTrackedAudio.clip?.name}");
+        }
+    }
 }
+
