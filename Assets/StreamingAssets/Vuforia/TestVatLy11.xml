@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="lienhedaodongdieuhoa" size="0.400000 0.533333" />
+    <ImageTarget name="thinghiem" size="0.400000 0.533333" />
+    <ImageTarget name="conlacloxo" size="0.400000 0.533333" />
+    <ImageTarget name="conlacdon" size="0.400000 0.533333" />
+    <ImageTarget name="daodongtatdan" size="0.400000 0.533333" />
+    <ImageTarget name="trang7_daodongdieuhoa" size="0.400000 0.533333" />
+  </Tracking>
+</QCARConfig>

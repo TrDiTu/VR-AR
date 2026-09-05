@@ -147,13 +147,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 141267577}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0.11, z: 0}
-  m_LocalScale: {x: 0.34, y: 0.19125003, z: 0}
+  m_LocalRotation: {x: 0.56640625, y: 0, z: 0, w: 0.82412624}
+  m_LocalPosition: {x: 0, y: 0.0376, z: -0.0414}
+  m_LocalScale: {x: 0.21, y: 0.118125, z: 0}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1806449147}
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 69, y: 0, z: 0}
 --- !u!328 &141267579
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -449,13 +449,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 206416784}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0.11, z: 0}
-  m_LocalScale: {x: 0.4, y: 0.22500002, z: 0}
+  m_LocalRotation: {x: 0.56640625, y: 0, z: 0, w: 0.82412624}
+  m_LocalPosition: {x: 0, y: 0.032, z: 0}
+  m_LocalScale: {x: 0.21, y: 0.118125, z: 0}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1784783828}
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 69, y: 0, z: 0}
 --- !u!328 &206416786
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -706,21 +706,113 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 245886099}
     m_Modifications:
+    - target: {fileID: 1937747082987818256, guid: c3e55aa881fffe448a78be7d3f3edd6e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 1937747082987818256, guid: c3e55aa881fffe448a78be7d3f3edd6e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 1937747082987818256, guid: c3e55aa881fffe448a78be7d3f3edd6e, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 1937747082987818256, guid: c3e55aa881fffe448a78be7d3f3edd6e, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2203795162211615823, guid: c3e55aa881fffe448a78be7d3f3edd6e, type: 3}
       propertyPath: m_Name
       value: SimplePendulum
       objectReference: {fileID: 0}
+    - target: {fileID: 2444489070581134184, guid: c3e55aa881fffe448a78be7d3f3edd6e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 2444489070581134184, guid: c3e55aa881fffe448a78be7d3f3edd6e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 2444489070581134184, guid: c3e55aa881fffe448a78be7d3f3edd6e, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 2444489070581134184, guid: c3e55aa881fffe448a78be7d3f3edd6e, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5309341390780737586, guid: c3e55aa881fffe448a78be7d3f3edd6e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 5309341390780737586, guid: c3e55aa881fffe448a78be7d3f3edd6e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 5309341390780737586, guid: c3e55aa881fffe448a78be7d3f3edd6e, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 5309341390780737586, guid: c3e55aa881fffe448a78be7d3f3edd6e, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6058972939870863934, guid: c3e55aa881fffe448a78be7d3f3edd6e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.31
+      objectReference: {fileID: 0}
+    - target: {fileID: 6058972939870863934, guid: c3e55aa881fffe448a78be7d3f3edd6e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.31
+      objectReference: {fileID: 0}
+    - target: {fileID: 6058972939870863934, guid: c3e55aa881fffe448a78be7d3f3edd6e, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.31
+      objectReference: {fileID: 0}
+    - target: {fileID: 6058972939870863934, guid: c3e55aa881fffe448a78be7d3f3edd6e, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6464619141089981460, guid: c3e55aa881fffe448a78be7d3f3edd6e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 6464619141089981460, guid: c3e55aa881fffe448a78be7d3f3edd6e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 6464619141089981460, guid: c3e55aa881fffe448a78be7d3f3edd6e, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 6464619141089981460, guid: c3e55aa881fffe448a78be7d3f3edd6e, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6953190435804726368, guid: c3e55aa881fffe448a78be7d3f3edd6e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.31
+      objectReference: {fileID: 0}
+    - target: {fileID: 6953190435804726368, guid: c3e55aa881fffe448a78be7d3f3edd6e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.31
+      objectReference: {fileID: 0}
+    - target: {fileID: 6953190435804726368, guid: c3e55aa881fffe448a78be7d3f3edd6e, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.31
+      objectReference: {fileID: 0}
     - target: {fileID: 6953190435804726368, guid: c3e55aa881fffe448a78be7d3f3edd6e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.00014996484
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6953190435804726368, guid: c3e55aa881fffe448a78be7d3f3edd6e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.233
       objectReference: {fileID: 0}
     - target: {fileID: 6953190435804726368, guid: c3e55aa881fffe448a78be7d3f3edd6e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.0038300005
+      value: 0.1343
       objectReference: {fileID: 0}
     - target: {fileID: 6953190435804726368, guid: c3e55aa881fffe448a78be7d3f3edd6e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -749,6 +841,10 @@ PrefabInstance:
     - target: {fileID: 6953190435804726368, guid: c3e55aa881fffe448a78be7d3f3edd6e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6953190435804726368, guid: c3e55aa881fffe448a78be7d3f3edd6e, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -862,13 +958,13 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: 20260811_194019
+  mTrackableName: conlacdon
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Vat_Ly_11.xml
-  mAspectRatio: 1.3333333
+  mDataSetPath: Vuforia/TestVatLy11.xml
+  mAspectRatio: 1.3333325
   mImageTargetType: 0
-  mWidth: 0.3
-  mHeight: 0.4
+  mWidth: 0.4
+  mHeight: 0.533333
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -906,11 +1002,93 @@ MonoBehaviour:
   m_EditorClassIdentifier: Vuforia.Unity.Engine.dll::Vuforia.ImageTargetPreview
   mObserverBehaviour: {fileID: 245886098}
   mHiddenRoot: {fileID: 0}
-  mTargetName: 20260811_194019
-  mDatasetName: Vuforia/Vat_Ly_11.xml
+  mTargetName: conlacdon
+  mDatasetName: Vuforia/TestVatLy11.xml
   mCastedBehaviour: {fileID: 245886098}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
+--- !u!1001 &253528876
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1222508164}
+    m_Modifications:
+    - target: {fileID: 201174171087816363, guid: 989c04c56185d9a4abc252a30ad67290, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3812907797068470684, guid: 989c04c56185d9a4abc252a30ad67290, type: 3}
+      propertyPath: m_Name
+      value: DampedPendulumApparatus
+      objectReference: {fileID: 0}
+    - target: {fileID: 5575344763606839535, guid: 989c04c56185d9a4abc252a30ad67290, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 5575344763606839535, guid: 989c04c56185d9a4abc252a30ad67290, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 5575344763606839535, guid: 989c04c56185d9a4abc252a30ad67290, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 5575344763606839535, guid: 989c04c56185d9a4abc252a30ad67290, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.027
+      objectReference: {fileID: 0}
+    - target: {fileID: 5575344763606839535, guid: 989c04c56185d9a4abc252a30ad67290, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.025
+      objectReference: {fileID: 0}
+    - target: {fileID: 5575344763606839535, guid: 989c04c56185d9a4abc252a30ad67290, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.185
+      objectReference: {fileID: 0}
+    - target: {fileID: 5575344763606839535, guid: 989c04c56185d9a4abc252a30ad67290, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5575344763606839535, guid: 989c04c56185d9a4abc252a30ad67290, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5575344763606839535, guid: 989c04c56185d9a4abc252a30ad67290, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5575344763606839535, guid: 989c04c56185d9a4abc252a30ad67290, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5575344763606839535, guid: 989c04c56185d9a4abc252a30ad67290, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5575344763606839535, guid: 989c04c56185d9a4abc252a30ad67290, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5575344763606839535, guid: 989c04c56185d9a4abc252a30ad67290, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5575344763606839535, guid: 989c04c56185d9a4abc252a30ad67290, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 989c04c56185d9a4abc252a30ad67290, type: 3}
+--- !u!4 &253528877 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5575344763606839535, guid: 989c04c56185d9a4abc252a30ad67290, type: 3}
+  m_PrefabInstance: {fileID: 253528876}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &253747937
 GameObject:
   m_ObjectHideFlags: 0
@@ -2140,13 +2318,13 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: 20260811_193940
+  mTrackableName: daodongtatdan
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Vat_Ly_11.xml
-  mAspectRatio: 1.3333333
+  mDataSetPath: Vuforia/TestVatLy11.xml
+  mAspectRatio: 1.3333325
   mImageTargetType: 0
-  mWidth: 0.3
-  mHeight: 0.4
+  mWidth: 0.4
+  mHeight: 0.533333
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -2165,6 +2343,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 253528877}
   - {fileID: 1982204924}
   - {fileID: 1102474980}
   m_Father: {fileID: 0}
@@ -2183,8 +2362,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Vuforia.Unity.Engine.dll::Vuforia.ImageTargetPreview
   mObserverBehaviour: {fileID: 1222508163}
   mHiddenRoot: {fileID: 0}
-  mTargetName: 20260811_193940
-  mDatasetName: Vuforia/Vat_Ly_11.xml
+  mTargetName: daodongtatdan
+  mDatasetName: Vuforia/TestVatLy11.xml
   mCastedBehaviour: {fileID: 1222508163}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -2290,13 +2469,13 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: 20260811_193332
+  mTrackableName: lienhedaodongdieuhoa
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Vat_Ly_11.xml
-  mAspectRatio: 1.3333333
+  mDataSetPath: Vuforia/TestVatLy11.xml
+  mAspectRatio: 1.3333325
   mImageTargetType: 0
-  mWidth: 0.3
-  mHeight: 0.4
+  mWidth: 0.4
+  mHeight: 0.533333
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -2333,8 +2512,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Vuforia.Unity.Engine.dll::Vuforia.ImageTargetPreview
   mObserverBehaviour: {fileID: 1241798588}
   mHiddenRoot: {fileID: 0}
-  mTargetName: 20260811_193332
-  mDatasetName: Vuforia/Vat_Ly_11.xml
+  mTargetName: lienhedaodongdieuhoa
+  mDatasetName: Vuforia/TestVatLy11.xml
   mCastedBehaviour: {fileID: 1241798588}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -2505,11 +2684,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1906897257304120896, guid: 8b07c3eabfc8cf148a66199341b34a40, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.243
+      value: 0.1735
       objectReference: {fileID: 0}
     - target: {fileID: 1906897257304120896, guid: 8b07c3eabfc8cf148a66199341b34a40, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.211
+      value: 0.2137
       objectReference: {fileID: 0}
     - target: {fileID: 1906897257304120896, guid: 8b07c3eabfc8cf148a66199341b34a40, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2585,13 +2764,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1420172300}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0.11, z: 0}
-  m_LocalScale: {x: 0.4, y: 0.22500002, z: 0}
+  m_LocalRotation: {x: 0.56640625, y: 0, z: 0, w: 0.82412624}
+  m_LocalPosition: {x: -0, y: 0.032, z: 0.003}
+  m_LocalScale: {x: 0.21000001, y: 0.118125014, z: 0}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 245886099}
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 69, y: 0, z: 0}
 --- !u!328 &1420172302
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -2780,6 +2959,155 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1444023617}
   m_CullTransparentMesh: 1
+--- !u!1 &1560680669
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1560680673}
+  - component: {fileID: 1560680672}
+  - component: {fileID: 1560680671}
+  - component: {fileID: 1560680670}
+  m_Layer: 0
+  m_Name: thi nghiem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1560680670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1560680669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Vuforia.Unity.Engine.dll::Vuforia.ImageTargetPreview
+  mObserverBehaviour: {fileID: 1560680672}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: thinghiem
+  mDatasetName: Vuforia/TestVatLy11.xml
+  mCastedBehaviour: {fileID: 1560680672}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &1560680671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1560680669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: VuforiaScripts::DefaultObserverEventHandler
+  StatusFilter: 1
+  UsePoseSmoothing: 0
+  AnimationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 3.3333333
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.3
+      value: 1
+      inSlope: 3.3333333
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  OnTargetFound:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.Video.VideoPlayer, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnTargetLost:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.Video.VideoPlayer, UnityEngine
+        m_MethodName: Stop
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1560680672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1560680669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1631628248, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Vuforia.Unity.Engine.dll::Vuforia.ImageTargetBehaviour
+  PreviewVisible: 1
+  RuntimeOcclusion: 0
+  RuntimeCollider: 0
+  mTrackableName: thinghiem
+  mInitializedInEditor: 1
+  mDataSetPath: Vuforia/TestVatLy11.xml
+  mAspectRatio: 1.3333325
+  mImageTargetType: 0
+  mWidth: 0.4
+  mHeight: 0.533333
+  mRuntimeTexture: {fileID: 0}
+  mMotionHint: 1
+  mTrackingOptimization: 0
+  mTrackingOptimizationNeedsUpgrade: 0
+  mPreview: {fileID: 1560680670}
+--- !u!4 &1560680673
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1560680669}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -0, y: 0, z: 6.09}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1922899685}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1 &1701634708
 GameObject:
   m_ObjectHideFlags: 0
@@ -3009,7 +3337,7 @@ GameObject:
   - component: {fileID: 1784783826}
   - component: {fileID: 1784783829}
   m_Layer: 0
-  m_Name: con_lac_lo_xo (1)
+  m_Name: con_lac_lo_xo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3098,13 +3426,13 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: 20260811_194635
+  mTrackableName: conlacloxo
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Vat_Ly_11.xml
-  mAspectRatio: 1.3333333
+  mDataSetPath: Vuforia/TestVatLy11.xml
+  mAspectRatio: 1.3333325
   mImageTargetType: 0
-  mWidth: 0.3
-  mHeight: 0.4
+  mWidth: 0.4
+  mHeight: 0.533333
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -3125,7 +3453,6 @@ Transform:
   m_Children:
   - {fileID: 206416785}
   - {fileID: 774426875}
-  - {fileID: 1969083779}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!114 &1784783829
@@ -3142,8 +3469,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Vuforia.Unity.Engine.dll::Vuforia.ImageTargetPreview
   mObserverBehaviour: {fileID: 1784783827}
   mHiddenRoot: {fileID: 0}
-  mTargetName: 20260811_194635
-  mDatasetName: Vuforia/Vat_Ly_11.xml
+  mTargetName: conlacloxo
+  mDatasetName: Vuforia/TestVatLy11.xml
   mCastedBehaviour: {fileID: 1784783827}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -3175,13 +3502,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1799773479}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0.11, z: 0}
-  m_LocalScale: {x: 0.4, y: 0.22500002, z: 0}
+  m_LocalRotation: {x: 0.56640625, y: 0, z: 0, w: 0.82412624}
+  m_LocalPosition: {x: 0, y: 0.032, z: 0}
+  m_LocalScale: {x: 0.21, y: 0.118125, z: 0}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1241798589}
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 69, y: 0, z: 0}
 --- !u!328 &1799773481
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -3397,13 +3724,13 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: 20260811_192944
+  mTrackableName: trang7_daodongdieuhoa
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Vat_Ly_11.xml
-  mAspectRatio: 1.3333333
+  mDataSetPath: Vuforia/TestVatLy11.xml
+  mAspectRatio: 1.3333325
   mImageTargetType: 0
-  mWidth: 0.3
-  mHeight: 0.4
+  mWidth: 0.4
+  mHeight: 0.533333
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -3441,8 +3768,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Vuforia.Unity.Engine.dll::Vuforia.ImageTargetPreview
   mObserverBehaviour: {fileID: 1806449146}
   mHiddenRoot: {fileID: 0}
-  mTargetName: 20260811_192944
-  mDatasetName: Vuforia/Vat_Ly_11.xml
+  mTargetName: trang7_daodongdieuhoa
+  mDatasetName: Vuforia/TestVatLy11.xml
   mCastedBehaviour: {fileID: 1806449146}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -3946,13 +4273,13 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!1001 &1969083778
+--- !u!1001 &1922899684
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1784783828}
+    m_TransformParent: {fileID: 1560680673}
     m_Modifications:
     - target: {fileID: 1113339599047851295, guid: 924de0171de0721428864c15441313e0, type: 3}
       propertyPath: m_Name
@@ -4010,6 +4337,14 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3780956253959177147, guid: 924de0171de0721428864c15441313e0, type: 3}
+      propertyPath: showRays
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3780956253959177147, guid: 924de0171de0721428864c15441313e0, type: 3}
+      propertyPath: showOrbit
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4672981516287832330, guid: 924de0171de0721428864c15441313e0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.13
@@ -4056,27 +4391,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8241309339761773330, guid: 924de0171de0721428864c15441313e0, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.19999999
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 8241309339761773330, guid: 924de0171de0721428864c15441313e0, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.2
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 8241309339761773330, guid: 924de0171de0721428864c15441313e0, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.19999999
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 8241309339761773330, guid: 924de0171de0721428864c15441313e0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.0198
+      value: 0.022
       objectReference: {fileID: 0}
     - target: {fileID: 8241309339761773330, guid: 924de0171de0721428864c15441313e0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.009
+      value: 0.0316
       objectReference: {fileID: 0}
     - target: {fileID: 8241309339761773330, guid: 924de0171de0721428864c15441313e0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.1548
+      value: -0.042
       objectReference: {fileID: 0}
     - target: {fileID: 8241309339761773330, guid: 924de0171de0721428864c15441313e0, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4106,6 +4441,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8241309339761773330, guid: 924de0171de0721428864c15441313e0, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 4763893469862218170, guid: 924de0171de0721428864c15441313e0, type: 3}
@@ -4115,10 +4454,10 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 924de0171de0721428864c15441313e0, type: 3}
---- !u!4 &1969083779 stripped
+--- !u!4 &1922899685 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8241309339761773330, guid: 924de0171de0721428864c15441313e0, type: 3}
-  m_PrefabInstance: {fileID: 1969083778}
+  m_PrefabInstance: {fileID: 1922899684}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1982204923
 GameObject:
@@ -4148,13 +4487,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1982204923}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0.11, z: 0}
-  m_LocalScale: {x: 0.39999986, y: 0.22499995, z: 0}
+  m_LocalRotation: {x: 0.56640625, y: 0, z: 0, w: 0.82412624}
+  m_LocalPosition: {x: 0.0464, y: 0.032, z: 0.003}
+  m_LocalScale: {x: 0.21, y: 0.118125014, z: 0}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1222508164}
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 69, y: 0, z: 0}
 --- !u!328 &1982204925
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -4354,6 +4693,7 @@ SceneRoots:
   - {fileID: 1241798589}
   - {fileID: 1806449147}
   - {fileID: 1784783828}
+  - {fileID: 1560680673}
   - {fileID: 1913073017}
   - {fileID: 1144080749}
   - {fileID: 549247731}
